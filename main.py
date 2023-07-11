@@ -1,4 +1,5 @@
 # made by sean devereux
+# made in a little over 2 hours, as my first python project. 
 
 from tkinter import StringVar
 from tkinter import IntVar
