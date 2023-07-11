@@ -97,7 +97,7 @@ answerBox.place(relx=0.5, rely=0.5, anchor=customtkinter.CENTER)
 button = customtkinter.CTkButton(master=app, text="Random Question", command=lambda: get_question())
 button.place(relx=0.5, rely=0.1, anchor=customtkinter.CENTER)
 
-answerButton = customtkinter.CTkButton(master=app, text="is this it?", command=lambda: get_answer())
+answerButton = customtkinter.CTkButton(master=app, text="Submit?", command=lambda: get_answer())
 answerButton.place(relx=0.5, rely=0.9, anchor=customtkinter.CENTER)
 
 app.mainloop()
